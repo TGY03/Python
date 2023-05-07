@@ -8,7 +8,7 @@ x, y, z = symbols('x y z')
 # st.header('聯立方程式求解')
 st.markdown('# 聯立方程式求解')
 
-expr1 = st.text_area('請輸入聯立方程式：', 'x+y=5\nx-y=1')
+expr1 = st.text_area('請輸入聯立方程式：', 'x+y=8\nx-y=2\n2*y+z=13')
 
 if st.button('求解'):
     equations_clean=[]
